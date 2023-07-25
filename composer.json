@@ -1,6 +1,6 @@
 {
     "name": "cartvc/cart-service",
-    "description": "A simple cart service package for Laravel.",
+    "description": "A Simple Cart Service:  Calculate Item Array to price.",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -14,7 +14,6 @@
             "email": "vickychhetri4@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "extra": {
         "laravel": {
@@ -22,5 +21,7 @@
                 "cartvc\\CartService\\CartServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
