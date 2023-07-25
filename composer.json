@@ -6,9 +6,16 @@
     "autoload": {
         "psr-4": {
             "cartvc\\CartService\\": "src/"
-        }
+        },
+
     },
-    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Vicky Chhetri",
+            "email": "vickychhetri4@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {},
     "extra": {
         "laravel": {
